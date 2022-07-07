@@ -1,5 +1,1 @@
-console.log('Hello!');
-
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
-});
+456456454564545645454564564564654654

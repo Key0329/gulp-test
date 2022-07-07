@@ -1,23 +1,24 @@
-$color: #00cc99;
+@import "reset";
+@import "lightbox";
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
+*,*::before,*::after{
+  box-sizing: border-box;
 }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.box {
+.box1,.box2,.box3{
   width: 100px;
   height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
+  display: none;
+}
+
+.box1{
+  background: #000;
+}
+
+.box2{
+  background: orange;
+}
+
+.box3{
+  background: pink;
 }
