@@ -1,24 +1,8 @@
 @import "reset";
+@import "swiper";
 @import "lightbox";
+
 
 *,*::before,*::after{
   box-sizing: border-box;
-}
-
-.box1,.box2,.box3{
-  width: 100px;
-  height: 100px;
-  display: none;
-}
-
-.box1{
-  background: #000;
-}
-
-.box2{
-  background: orange;
-}
-
-.box3{
-  background: pink;
 }

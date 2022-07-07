@@ -44,6 +44,8 @@ let envOptions = {
   vendors: {
     src: [
       `${nodePath}/jquery/dist/**/jquery.min.js`,
+      `${nodePath}/swiper/**/swiper-bundle.min.js`,
+      `${nodePath}/lightbox2/dist/js/**/lightbox.min.js`,
     ],
     concat: 'vendors.js',
     path: `${distPath}/assets/js`,
