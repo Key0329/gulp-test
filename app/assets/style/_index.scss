@@ -1,0 +1,39 @@
+.banner{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.884);
+    height: 346px;
+    flex-direction: column;
+    &-content{
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.3);
+        h2{
+            font-size: $fz-l;
+            line-height: 1.5;
+        }
+    }
+}
+
+.course-item {
+    width: 30%;
+    border: 2px solid #f5f6fa;
+    border-top: none;
+    box-shadow: 0 10px 5px -10px gray;
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: $fz-s;
+    }
+    p {
+        font-size: $fz-xs;
+    }
+    .jQuery {
+        list-style: disc;
+        padding-left: 1.3em;
+        font-size: $fz-xs;
+    }
+}

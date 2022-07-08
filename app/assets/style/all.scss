@@ -1,8 +1,9 @@
+@import "variable";
 @import "reset";
+@import "base";
 @import "swiper";
 @import "lightbox";
+@import "layout";
+@import "index";
 
 
-*,*::before,*::after{
-  box-sizing: border-box;
-}
