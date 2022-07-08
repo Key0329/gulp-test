@@ -1,3 +1,5 @@
+// banner
+
 .banner{
     background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
     background-position: center;
@@ -15,6 +17,8 @@
     }
 }
 
+// cards
+
 .course-item {
     width: 30%;
     border: 2px solid #f5f6fa;
@@ -23,7 +27,7 @@
     line-height: 1.5;
     text-align: justify;
     letter-spacing: 0.5px;
-    h2 {
+    h4 {
         text-align: center;
         font-weight: bold;
         font-size: $fz-s;
@@ -35,5 +39,90 @@
         list-style: disc;
         padding-left: 1.3em;
         font-size: $fz-xs;
+    }
+}
+
+// 差異表格
+
+.difference{
+    flex-direction: column;
+    h3{
+        font-size: $fz-m;
+        font-weight: bold;
+    }
+    table{
+        width: 87.5%;
+    }
+    thead{
+        background: #f7f7f7;
+        font-weight: bold;
+        th{
+            border-top: 1px solid #dddddd;
+            text-align-last: left;
+        }
+    }
+    th,td{
+        width: 25%;
+        padding-left: 3rem;
+        border-bottom: 1px solid #dddddd;
+        line-height: 35px;
+    }
+    .highlight{
+        color: $secondary-color;
+    }
+}
+
+// 資訊表單
+
+.info{
+    background: linear-gradient(#00644b,#009872);
+    .container{
+        flex-direction: column;
+        h3{
+            text-align: center;
+            color: #fff;
+            font-size: $fz-m;
+            line-height: 1.5;
+            padding-bottom: 2rem;
+        }
+    }
+}
+.info form{
+    width: 100%;
+    
+    textarea{
+        width: 48%;
+        resize: none;
+        border-radius: 5px;
+        border: none;
+    }
+    .info-data{
+        width: 48%;
+        flex-direction: column;
+        label{
+            color: #fff;
+            line-height: 1.5;
+        }
+        input{
+            border-radius: 3px;
+            border: none;
+            line-height: 2;
+            text-indent: 1rem;
+        }
+        input[type=submit]{
+            width: 72px;    
+            text-indent: 0;
+            margin-top: 5px;
+            color: #fff;
+            background: $primary-color;
+            align-self: flex-end;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                font-weight: bold;
+                background: $secondary-color;
+            }
+        }
     }
 }
